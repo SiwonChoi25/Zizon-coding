@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>오버워치리그 Home</title>
+        <style>
+            header {
+                font-size: larger;
+                padding-left: 25px;
+                padding-bottom: 10px;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                background-color: rgb(56, 50, 47);
+            }
+            ul::after {
+                content: '';
+                display: block;
+                clear: both;
+            }
+            li {
+                float:left;
+            }
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover:not(.active) {
+                background-color: rgb(224, 141, 46);
+            }
+            .active {
+                background-color:orange;
+            }
+            article > #first-article {
+                padding-left: 15px;
+                padding-top: 10px;
+                padding-bottom: 30px;
+            }
+            article > #second-article {
+                padding-left: 15px;
+                padding-top: 10px;
+                padding-bottom: 150px;
+            }
+            #footer {
+                font-size: 15px;
+                background-color:rgb(255, 150, 64);
+                padding-top: 1px;
+                padding-bottom: 1px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Overwatch League</h1>
+        </header>
+        <ul>
+            <li><a class="active" href="OWL 홈.html">Home</a></li>
+            <li><a href="OWL 팀.html">Team</a></li>
+            <li><a href="OWL 선수.html">Player</a></li>
+            <li><a href="#">News</a></li>
+        </ul>
+        <article>
+            <div id="first-article">
+                <h2>오버워치 리그 ?</h2>
+                <img src="2021season.jpg" width="600" height="400">
+                <h3>블리자드 엔터테인먼트가 주최/주관하는 오버워치 프랜차이즈 리그로,
+                    블리즈컨 2016 오프닝 행사에서 처음 공개되었다.<br> 2017년 프리시즌과
+                    함께 첫 시즌을 시작했으며, 기존 e스포츠 대회에 지역 연고, 저지 개념의 스킨 등
+                    프로 스포츠 요소와 글로벌리즘을 결합한 것이 특징이다.
+                </h3>
+            </div>
+            <div id="second-article">
+                <h2>2021 오버워치 리그 참가팀</h2>
+                <img src="allteam.png" width="900" height="550">
+                <h3>2021시즌은 동부 지역 8팀과 서부 지역 8팀으로 나눠서 경기한다.<br><br></h3>
+                <h4>
+                    동부 지역 8팀은 'LA 발리언트', '광저우 차지', '뉴욕 엑셀시어',
+                    '상하이 드래곤즈', '서울 다이너스티', '청두 헌터즈', '필라델피아 퓨전',
+                    '항저우 스파크'이다.<br>
+                </h4>
+                <h4>
+                        서부 지역 12팀은 'LA 글래디에이터즈', '댈러스 퓨얼', '런던 스핏파이어',
+                        '벤쿠버 타이탄즈', '보스턴 업라이징', '샌프란시스코 쇼크', '애틀랜타 레인',<br>
+                        '워싱턴 저스티스', '토론토 디파이언트', '파리 이터널', '플로리다 메이햄',
+                        '휴스턴 아웃로즈'이다.
+                </h4>
+            </div>
+        </article>
+        <footer>
+            <div id="footer">
+               <p><b>제작 : 지존코딩</b></p>
+               <p><b>제작자 : 최시원, 김노을, 이지오, 이채린</b></p>
+             </div>
+        </footer>
+    </body>
+</html>
